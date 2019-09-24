@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="description" content="Analog Sea Signup Form">
+	<meta name="tags" content="Signup, signin, create account, analog sea">
+	<title>Analog Sea</title>
+
+	<!-- CSS stylesheet-->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+
+<body>
+	<div class="main">
+		<div class="logo">
+			<img id="logo" src="images/logo.png">
+		</div>
+
+		<div class="form">
+			<div class="content">
+				<h1>Sign up</h1>
+				<form action="/signup/" method="post" id="signup-form" class= "signup-form">
+					
+					<label for="email">Email</label><input class="width320" type="email" name="email" placeholder="foo@bar.com" required="">
+
+					<label for="password">Password</label><input class="width320" type="password" name="password" placeholder="1234passw0rd" required="">
+
+					<button class="width320 height55" type="submit"> Sign up</button>
+				</form>
+				<p><a href="/forgot-password/new">forgot password?</a></p>
+			</div>
+		</div>
+		<p>Already have an account? <a href="/login">Log in</a></p>
+	</div>
+</body>
+</html>
